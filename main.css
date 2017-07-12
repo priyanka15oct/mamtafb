@@ -1,0 +1,93 @@
+*,
+*:after,
+*:before {
+	box-sizing: border-box;
+}
+
+html,body {
+	height: 100%;
+	width: 100%;
+	font-family: sans-serif;
+}
+
+
+.wrapper {
+	max-width: 700px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+h1 {
+	text-align: center;
+}
+
+.box {
+	height: auto;
+    width: auto;
+	background-color: #e7e7e7;
+	border: 1px solid rgba(0,0,0,0.87);
+
+}
+
+/* Add Custom CSS Below this line */
+.container {
+  
+ 
+  height: 600px;
+    width: auto;
+
+}
+header {
+  background-color: #4267b2;
+  height: 40px;
+}
+
+  
+
+
+#wrapper{
+    margin-top: 15px;
+}
+
+#main,
+#menu,
+#sidebar {
+  height: 600px;
+  background-color: #e9ebee;
+    margin-top: 10px;
+    
+}
+.white-text {
+ color: white !important; 
+}
+#header {
+    background-color: #4267b2;
+    color: white;
+}
+#header ul .glyphicon {
+    font-size: 20px;
+}
+.pull-right {
+    float: right!important;
+}
+.list-heading {
+    padding: 20px 15px 0 15px;
+}
+.panel-body .glyphicon {
+    margin-left: 10px;
+    margin-right: 4px;
+}
+.text-post {
+    margin-bottom: 15px;
+    margin-top: 0;
+}
+.image-post {
+    margin-bottom: 15px;
+}
+#main {
+    overflow: auto;
+}
+#main::-webkit-scrollbar {
+    display: none;
+}
+
